@@ -1,0 +1,202 @@
+
+/*Menu Css start here*/
+/* Resetting default list styles */
+ul {
+  list-style: none; /* Removes default bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  text-align: center; /* Center the list items horizontally */
+  background-color: #7213a8; /* Background color for the unordered list */
+  padding: 20px; /* Additional padding for the unordered list */
+}
+
+/* Styling the menu */
+nav ul {
+  display: flex; /* Displays the list items as a flex container */
+  justify-content: center; /* Center the flex items horizontally */
+}
+
+nav ul li {
+    margin-right: 20px; /* Creates spacing between menu items */
+}
+
+nav ul li a {
+  text-decoration: none; /* Removes underline from anchor links */
+  color: white; /* Text color for anchor links */
+  font-weight: bold; /* Bold font for anchor links */
+  font-size: 20px; /* Font size for anchor links */
+}
+
+/*Menu Css ends here*/
+
+main {
+  flex-grow: 1; /* Allow main content to grow and take remaining space */
+  max-width: 800px;
+  text-align: center; /* Center-align the content within main */
+  padding: 20px; /* Add padding for space around the content */
+  background-color: lightgray;
+  margin: 0 auto  ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 4px; /* Rounded corners for input elements */
+}
+
+.main-2 {
+  flex-grow: 1; /* Allow main content to grow and take remaining space */
+  border-radius: 8px;
+  background-color: lightblue;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.main-2 table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.main-2 th {
+  border-radius: 4px;
+  padding: 8px;
+  text-align: center;
+  background-color: white;
+}
+
+
+.header {
+  background-color: #3498db; /* Background color for the header */
+  padding: 10px; /* Padding to create space around the content */
+  text-align: center; /* Center-align the text */
+}
+
+.header h1 {
+  color: white; /* Text color for the h1 header */
+}
+
+.Big-text {
+  font-weight: bold; /* Bold font weight for big text */
+  text-align: center; /* Center-align the text */
+  margin-top: 20px; /* Top margin for separation */
+}
+
+.Paragraph-title {
+  font-weight: bold; /* Bold font weight for paragraph title */
+  text-align: center; /* Center-align the text */
+  color: rgb(252, 140, 140); /* Text color for paragraph title */
+  font-size: 30px; /* Font size for paragraph title */
+}
+
+.Para {
+  text-align: center; /* Center-align the text */
+  color: black; /* Text color for paragraphs */
+}
+
+/* Footer styles */
+footer {
+  background-color: rgb(156, 154, 247); /* Background color for the footer */
+  color: white; /* Text color for the footer */
+  text-align: center; /* Align text to the center */
+  padding: 20px; /* Padding for spacing */
+  flex-shrink: 0; /* Prevent footer from shrinking */
+}
+
+/* Image container styles */
+.image-container {
+  display: flex; /* Displays as a flex container */
+  justify-content: center; /* Center-aligns horizontally */
+  align-items: center; /* Center-aligns vertically */
+  height: 300px; /* Height of the image container */
+  margin-bottom: 10px; /* Bottom margin for separation */
+}
+
+img {
+  max-width: 100%; /* Image width doesn't exceed container */
+  max-height: 100%; /* Image height doesn't exceed container */
+  /* Additional styles for the image if necessary */
+}
+
+/* Table styles */
+table {
+  width: 70%; /* Table spans full width */
+  border-collapse: collapse; /* Borders collapse into one */
+  font-family: Arial, sans-serif; /* Font family for the table */
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #000000; /* Border for table cells */
+  padding: 8px; /* Padding within table cells */
+  text-align: center; /* Center-align text within cells */
+}
+
+th {
+  background-color: #d2fd37; /* Background color for table header */
+  font-weight: bold; /* Bold font weight for table header */
+}
+
+/* Form styles */
+body {
+  font-family: Arial, sans-serif; /* Font family for the entire body */
+  background-color: #f4f4f4; /* Background color for the body */
+  margin: 0; /* Remove default margin */
+  padding: 20px; /* Padding for space around content */
+}
+
+h2 {
+  text-align: center; /* Center-align the h2 heading */
+}
+
+.registration-form {
+  max-width: 600px; /* Maximum width for the form */
+  margin: 0 auto; /* Center-align the form */
+  background-color: #fff; /* Background color for the form */
+  padding: 20px; /* Padding for space inside the form */
+  border-radius: 8px; /* Rounded corners for the form */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect for the form */
+}
+
+label,
+input,
+select,
+textarea {
+  display: block; /* Display elements as block elements */
+  margin-bottom: 10px; /* Bottom margin for spacing between elements */
+}
+
+input[type="text"],
+textarea,
+select {
+  width: 100%; /* Full width for text, textarea, and select elements */
+  padding: 8px; /* Padding within input elements */
+  border-radius: 4px; /* Rounded corners for input elements */
+  border: 1px solid #ccc; /* Border for input elements */
+}
+
+.form-row {
+  display: flex; /* Display as flex container */
+  justify-content: space-between; /* Space elements evenly */
+}
+
+.form-row .half {
+  width: calc(50% - 5px); /* Width for half of the form */
+}
+
+.button-row {
+  text-align: center; /* Center-align the button row */
+  margin-top: 20px; /* Top margin for separation */
+}
+
+input[type="submit"],
+input[type="reset"] {
+  padding: 10px 20px; /* Padding for buttons */
+  background-color: #4CAF50; /* Background color for buttons */
+  color: white; /* Text color for buttons */
+  border: none; /* Remove button border */
+  border-radius: 4px; /* Rounded corners for buttons */
+  cursor: pointer; /* Cursor style on hover */
+  margin-right: 10px; /* Right margin for buttons */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #45a049; /* Hover background color for buttons */
+}

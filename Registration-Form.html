@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class = "header">
+<h1><center>Welcome to  my website</center></h1>
+</div>
+
+<nav>
+  <ul>
+    <li><a href="Homepage.html">Homepage</a></li>
+    <li><a href="Table-For-Event.html">Table For Event</a></li>
+    <li><a href="Registration-Form.html">Registration Form</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<form action="/submit_registration" method="post" class="registration-form">
+    <label for="phone">Phone No.</label>
+    <input type="text" id="phone" name="phone" pattern="\d{3}-\d{7}" placeholder="e.g., 019-1234567" required>
+    
+    <label for="address">Type your mailing address here.</label>
+    <textarea id="address" name="address" rows="4" cols="50" required></textarea>
+    
+    <div class="form-row">
+      <div class="half">
+        <label for="postcode">Postcode</label>
+        <input type="text" id="postcode" name="postcode" required>
+      </div>
+      <div class="half">
+        <label for="state">State</label>
+        <input type="text" id="state" name="state" required>
+      </div>
+    </div>
+    
+    <label for="contact_person">Contact Person</label>
+    <select id="contact_person" name="contact_person" required>
+      <option value="father">Father</option>
+      <option value="mother">Mother</option>
+      <option value="brother">Brother</option>
+      <option value="sister">Sister</option>
+      <option value="grandfather">Grand Father</option>
+      <option value="grandmother">Grand Mother</option>
+      <option value="other">Other</option>
+    </select>
+    
+    <label for="relation">Relation</label>
+    <input type="text" id="relation" name="relation">
+    
+    <label for="contact_person_phone">Contact Person Phone No.</label>
+    <input type="text" id="contact_person_phone" name="contact_person_phone" pattern="\d{3}-\d{7}" placeholder="e.g., 019-1234567" required>
+    
+    <div class="button-row">
+      <input type="submit" value="Save">
+      <input type="reset" value="Clear">
+    </div>
+  </form>
+
+  <footer>
+    <p>This a footer , my footer . I love feets :D</p>
+  </footer>
+
+</body>
+</html>
